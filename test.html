@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo in browser</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./lib/timeout.js"></script>
+    <script>
+        // interval
+        var timer = Timeout.getIns('test-namespace')
+        timer.interval(function () {
+            console.log('interval:', +new Date())
+        }, 1e3, 'loopTest')
+
+        // timeout
+        timer.timeout(function () {
+            console.log('timeout:', +new Date())
+        }, 5e3, 'onceTest')
+
+        // clearScopeAll()
+        timer.timeout(function () {
+            console.log('exec clearScopeAll:')
+            // 清除 'test-namespace'模块下所有计时器
+            timer.clearScopeAll()
+        }, 10e3, 'clearTest')
+
+        // ...
+
+    </script>
+</head>
+<body>
+<p> 请查看控制台输出! </p>
+</body>
+</html>
