@@ -1,8 +1,14 @@
 {
   "name": "manager-timeout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "manager timeout, replace setInterval with setTimeout.",
   "main": "lib/timeout.js",
+  "files": [
+    "lib/",
+    "README.md",
+    "test.html",
+    "test.js"
+  ],
   "scripts": {
     "test": "node test.js"
   },
