@@ -1,6 +1,6 @@
 {
   "name": "manager-timeout",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "manager timeout, replace setInterval with setTimeout.",
   "main": "lib/timeout.js",
   "files": [
@@ -17,6 +17,11 @@
     "setInterval",
     "setTimeout"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fxjs/manager-timeout"
+  },
+  "bugs": "https://github.com/fxjs/manager-timeout/issues",
   "author": "fx",
   "license": "ISC"
 }

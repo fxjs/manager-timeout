@@ -8,7 +8,6 @@ manager-timeout（JavaScript计时器管理）
 ---------------------------------------
 
 * [NPM](https://www.npmjs.org/): `npm install manager-timeout`
-* Git: `git clone https://github.com/fxjs/manager-timeout`
 
 API
 ---------------------------------------
