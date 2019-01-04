@@ -1,6 +1,7 @@
 manager-timeout（JavaScript计时器管理）
 =======================================
 使用原生 setTimeout 替代 setInterval 循环
+
 全局存储变量： ```_MEMTIMER```
 
 安装
